@@ -8,7 +8,7 @@ function generateHTML(data) {
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="bg-dark">
   <style>
       .ul{
           list-style-type:none;
@@ -22,11 +22,11 @@ function generateHTML(data) {
       .cardbody{
           width: 200px;
           border-radius: 10px;
-          box-shadow: 5px 10px 8px #888888;
+          box-shadow: 5px 10px 8px #333;
       }
   </style>
-<div class="jumbotron" style="background: gray" >
-  <h1 class="text-center" >Company Employees</h1>
+<div class="jumbotron text-white" style="background: #cc0033" >
+  <h1 class="text-center" >Company Team Members</h1>
   </div>
   <div class='container'>
   <ul class="ul">
@@ -61,7 +61,7 @@ function makeManagerCard(x) {
   <li>
   <div class="col-md-3">
   <div class="card cardbody">
-    <div class="card-header" style="background: #5178ED">
+    <div class="card-header" style="background: #cc0033">
                  ${x.name}<br>
                  <div class="fa fa-edit">${x.getRole()}</div>
                 </div>
