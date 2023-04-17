@@ -13,18 +13,13 @@ I wanted to be more organizied at work and use it to help organize everyone that
 - HTML
 - CSS
 - JavaScript
-- [DayJS](https://day.js.org/en/)
-- [JQuery](https://jquery.com/)
 - [BootStrap](https://getbootstrap.com/)
 
 ## Screenshots 
 
-![Page with sample](./assets/images/Screenshot%202023-02-01%20at%2013-40-50%20Day%20Planner.png)
+![Page with sample](./Assets/Screenshot%202023-04-17%20at%2019-17-19%20Page.png)
 
-![Filled schedule](./assets/images/Screenshot%202023-02-01%20133212.png)
-
-![ Storage](./assets/images/Screenshot%202023-02-01%20131608.png)
 
 ## Links 
 
-[Deployed Page](https://migeru27.github.io/dayPlanner/)
+[Deployed Page](https://migeru27.github.io/Profile_Gen/)
