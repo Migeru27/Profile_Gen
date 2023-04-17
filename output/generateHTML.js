@@ -61,7 +61,7 @@ function makeManagerCard(x) {
   <li>
   <div class="col-md-3">
   <div class="card cardbody">
-    <div class="card-header" style="background: #cc0033">
+    <div class="card-header text-white" style="background: #cc0033">
                  ${x.name}<br>
                  <div class="fa fa-edit">${x.getRole()}</div>
                 </div>
